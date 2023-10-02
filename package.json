@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^8.16.17",
+    "selenium-webdriver": "^4.13.0",
+    "webdriverio": "^8.16.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "@wdio/local-runner": "^8.16.17",
+    "@wdio/mocha-framework": "^8.16.17",
+    "@wdio/spec-reporter": "^8.16.17"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
